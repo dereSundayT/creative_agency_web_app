@@ -1,38 +1,95 @@
-.App {
+* {
+  margin: auto;
+  padding: 0;
+}
+.sup{
+  border-radius:20px;
+  margin-left:3px;
+  padding:2px;
+  font-size:12px;
+  background:purple;
+  color:white;
+}
+.hero-wrap {
+  background-image: url('./components/images/bg_2.jpg');
+}
+.hero-wrap .overlay{
+  background-color: white !important;
+}
+.header{
+  margin-top: 100px;
+  height: 500px;
+  background-color: white !important;
+}
+.nav-link{
+  color: purple ;
+
+}
+ input[type=email]{
+  border:2px solid purple;
+  color:purple;
+  border-radius: 25px;
+}
+.grey{
+  color:#333 !important;
+}
+.color_purple{
+  color:purple;
+}
+.text-purple{
+  color:#800080;
+
+}
+.color_purple li a{
+  color:purple;
+}
+.footer{
+  background:#fff6ff;
+  color:purple;
+}
+.social li{
+  display: inline;
+  margin-left: 5px;
+  font-size:20px;
+}
+.contact h1{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.team{
+  color:purple;
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.team img{
+  height: 400px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.team a,p{
+  color:#333;
+}
+.service{
+  background-color:#2e318e;
+}
+.serviceHeader{
+  clear: both;
+  width: 100%;
+  float: left;
   color: white;
+  font-size: 50px;
+  line-height: 40px;
+  margin-bottom: 50px;
 }
-
-.App-link {
-  color: #61dafb;
+.service h3{
+  color:white;
+  float: left;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.service p{
+  clear: both;
+  color:white;
+  float: right;
+  text-align: justify;
+  font-size: 12px;
+  margin-left: 27px;
+}
+.service i{
+  float: left;
+  margin-right: 12px;
 }
