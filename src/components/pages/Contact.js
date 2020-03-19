@@ -10,6 +10,7 @@ const Contact = () => {
             <small id="emailHelp" className="form-text text-muted text-center ">contact us</small>
                 <h3 className="text-purple"><b>Have an awesome idea in your mind?</b></h3>
                 <h3 className="text-purple"><b>we would love to hear</b></h3>
+              
                
                  <form className="form-inline">
                       <div className=" col-4 form-group  myInput">
